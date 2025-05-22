@@ -1,0 +1,6 @@
+git revert - if you pushed the changes to remote then do git revert HEAD if youwant to revert the recent changes then git push the changes will be removed
+from the local and remote.
+
+git reset --soft HEAD~1  -  undoes the commit and move back to staging and changes are there on your local
+
+git reset --hard HEAD~1  -  undoes the commit and removes the changes from staging and also from local
